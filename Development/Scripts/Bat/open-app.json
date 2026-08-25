@@ -1,0 +1,35 @@
+{ 
+    "projects": [
+        {
+            "id": 1,
+            "description": "website",
+            "openin": "vscode" ,
+            "path": "C:\\Users\\fernando\\Repositorios\\website"
+        },
+        {
+            "id": 2,
+            "description": "api",
+            "openin": "vstudio" ,
+            "path": "C:\\Users\\fernando\\Repositorios\\api-generica\\ApiGenerica.slnx"
+        },
+        {
+            "id": 3,
+            "description": "relatorio-csv",
+            "openin": "notepad" ,
+            "path": "C:\\Users\\fernando\\Repositorios\\input-relatorio.csv"
+        },
+        {
+            "id": 4,
+            "description": "Repositorios",
+            "openin": "explorer" ,
+            "path": "C:\\Users\\fernando\\Repositorios"
+        }
+    ],
+    "groups": [
+        {
+            "id": 1,
+            "description": "Development",
+            "projects": [1, 2]
+        }
+    ]
+}
