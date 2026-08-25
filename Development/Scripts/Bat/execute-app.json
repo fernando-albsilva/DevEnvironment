@@ -1,0 +1,28 @@
+{ 
+    "projects": [
+        {
+            "id": 1,
+            "description": "website",
+            "path": "C:\\Users\\fernando\\Repositorios\\website",
+            "commands": [
+                "npm install",
+                "npm run dev"
+            ]
+        },
+        {
+            "id": 2,
+            "description": "api",
+            "path": "C:\\Users\\fernando\\Repositorios\\api-carros\\api-carro",
+            "commands": [
+                "dotnet run api-carro.csproj"
+            ]
+        }
+    ],
+    "groups": [
+        {
+            "id": 1,
+            "description": "Website + Api",
+            "projects": [1, 2]
+        }
+    ]
+}
